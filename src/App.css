@@ -132,7 +132,7 @@ form input {
     width: 100%;
     border: none;
     border-bottom: 1px solid #a0d2bd;
-    color: #87c7ad;
+    color: #060d0a;
     margin-bottom: 30px;
     background: #013b08;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #72c27b, #72c27b);  /* Chrome 10-25, Safari 5.1-6 */
@@ -166,7 +166,7 @@ form input:focus,
 textarea:focus {
     outline: none;
     font-weight: bold;
-    color: #a0d2b3;
+    color: #050505;
     font-size: 15px;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;

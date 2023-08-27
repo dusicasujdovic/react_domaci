@@ -1,7 +1,4 @@
 import React from 'react'
-//import InstagramIcon from '@mui/icons-material/Instagram';
-//import FacebookIcon from '@mui/icons-material/Facebook';
-//import GoogleIcon from '@mui/icons-material/Google';
 import {AiFillGoogleCircle} from 'react-icons/ai';
 import {AiFillFacebook} from'react-icons/ai';
 import {AiFillInstagram} from 'react-icons/ai';

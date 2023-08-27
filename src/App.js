@@ -10,8 +10,6 @@ import './App.css';
 
 function App() {
 
-  //const telefon = "+381 657890345";
-
   return (
     <div className="App">
       <ProizvodiContextProvider>
