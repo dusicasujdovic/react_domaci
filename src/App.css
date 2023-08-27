@@ -36,3 +36,592 @@
     transform: rotate(360deg);
   }
 }
+  .onama-text {
+    position: relative;
+    transition: transform 0.2s;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #5ce66c;
+    z-index: 1;
+    font-size: 60px;
+    margin-bottom: -100px;
+  }
+  .naslov{
+    font-family: 'Itim';
+    color: #10a822;
+    font-size: 50px;
+    padding-top: -20px;
+    
+  }
+  .tekst{
+    font-family: 'Itim';
+    color: #000000;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 30px;
+  }
+  .kontejner{
+    background: #cffad4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cff3b3, #d2fdaf);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cff3b3, #d2fdaf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 150px;
+    padding-top: 0;
+    border-radius: 50px;
+  }
+  .onama{
+    background: #cffad4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e3fce6, #e3fce6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e3fce6, #e3fce6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+  }
+
+  .kontakt {
+    font-family: 'Itim';
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #04b318;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ace8b3, #ace8b3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ace8b3, #ace8b3); 
+}
+.kontaktLeftColumn {
+    display: flex;
+    flex: 60%;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.kontaktRightColumn {
+    height: 100%;
+    display: flex;
+    flex: 18%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.kontakt .kontaktLeftColumn h2 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+    margin-left: 30px;
+    color: #015b35;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    padding: 30px;
+}
+form input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #a0d2bd;
+    color: #87c7ad;
+    margin-bottom: 30px;
+    background: #013b08;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #72c27b, #72c27b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #72c27b, #72c27b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+form textarea {
+    margin-top: 15px;
+    height: 70px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #028b49;
+    color: #028445;
+    background: #cffad4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #72c27b, #72c27b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #72c27b, #72c27b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-weight: bold;
+    color: #000000;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #cffad4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #038111, #e3fce6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e3fce6, #e3fce6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+form input:focus,
+textarea:focus {
+    outline: none;
+    font-weight: bold;
+    color: #a0d2b3;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form label {
+    margin-top: 15px;
+    color: #03744f;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+form button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background: #8ff196;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e3fce6, #e3fce6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e3fce6, #e3fce6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    border-color: #a0d2af;
+    color: rgb(4, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    border-style: double;
+}
+form button:hover{
+    transform: scale(1.1);
+    color: #000000;
+}
+
+*{
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+}
+.shopTitle {
+    margin-top: -40px;
+    text-align: center;
+    font-size: 30px;
+    color: #014610;
+  }
+
+  .products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+  .product {
+    border-radius: 1px;
+    width: 200px;
+    height: 500px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .opis{
+    font-family: 'Itim';
+    color: #02862e;
+    font-style: none;
+    font-style: normal;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .dodajbtn{
+    font-family: 'Itim';
+    color: #010800;
+    font-style: none;
+    font-style: normal;
+    background: #000801;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a5e7b2, #a5e7b2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a5e7b2, #a5e7b2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border: #a0d2b7;
+    border-style: double;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    margin-bottom: 40px;
+  }
+
+  .dodajbtn:hover{
+    transform: scale(1.1);
+    color: #a0d2b3;
+  }
+
+  .h1{
+    padding-top: 100px;
+  }
+
+  .razmak{
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-bottom: 88px;
+    border: #a0d2bb;
+    border-style: double;
+    border-width: 10px;
+    padding: 20px;
+    background: #b0eaa3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f6f7f6, #f6f7f6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f6f7f6, #f6f7f6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+  .shop{
+    background: #b2ecc8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bfecd0, #bfecd0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bfecd0, #bfecd0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  .cena{
+    font-size: 20px;
+  }
+
+  .product img {
+    width: 235px;
+    padding-top: 70px;
+  }
+
+  .product .opis {
+    text-align: center;
+  }
+
+  .product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+  .addToCartBttn {
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  .addToCartBttn:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+  }
+
+  
+  .cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ukupno, .prazna{
+    color: #080808;
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .nastavi, .placanje{
+    background: #a0edb1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b2eecd, #b2eecd);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b2eecd, #b2eecd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+    padding-top: 5px;
+    margin: 5px;
+    border-color: #a0d2a9;
+    border-radius: 15px;
+    border-style: double;
+    color: #0f0f0f;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .nastavi:hover, .placanje:hover{
+    color:#a0d2b6;
+    transform: scale(1.1);
+    cursor: pointer;
+
+  }
+
+  .korpa{
+      background: #85f2bf;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #b3e7c1, #b3e7c1);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #b3e7c1, #b3e7c1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      padding-top: 50px;
+      padding-left: 0px;
+    
+  }
+
+  .korpaCheckout{
+    background: #63c584;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b3e7c1, #b3e7c1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b3e7c1, #b3e7c1);
+    padding-bottom: 20px;
+  }
+
+  .korpaItem {
+    width: 700px;
+    height: 250px;
+    display: flex;
+
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    
+    margin: 30px;
+    background: #a3eaa9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffefd, #fffefd);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffefd, #fffefd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .naslov {
+    padding-top: 100px;
+    font-family: 'Merriweather', serif;
+    color: #060b0d;
+    font-style: none;
+    font-style: normal;
+    font-size: 60px;
+  }
+  .korpaItem img {
+    width: 130px;
+    margin-left: 20px;
+  }
+
+  .korpaItem .opis {
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+    color: #01631a;
+  }
+
+  .countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .kolicinaPlus{
+    background: #9ceea7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b2eec3, #b2eec3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b2eec3, #b2eec3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: #a0d2ad;
+    border-style: double;
+    border-radius: 5px;
+    color: #ebf7eb;
+    font-size: 20px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    margin: 3px;
+  }
+
+  .kolicinaPlus:hover{
+    transform: scale(1.1);
+    color: #081114;
+    cursor: pointer;
+  }
+
+  .kolicinaInput{
+    background: #9cee9c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#a8f0b4, #a8f0b4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8f0b4, #a8f0b4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: #a0d2bd;
+    border-style: double;
+    border-radius: 5px;
+    color: #070703;
+    font-size: 20px;
+    pointer-events: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 150px;
+    background: #9ad19c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #21573a, #21573a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #21573a, #21573a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socialMediaIcons svg {
+    color:  #c3f3d6;
+    margin: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.socialMediaIcons svg:hover{
+    color:  #adf0ba;
+    transform: translateY(-3px);
+}
+
+.footer p {
+    color:  #ccefd8;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background: #273f34;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #21573a, #21573a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #21573a, #21573a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.Links{
+  padding: 40px;
+}
+
+.navbar .lef-column {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.navbar .left-column img {
+  width: 120px;
+  margin-top: 0;
+}
+
+.navbar .right-column {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20px;
+  color: #dcebd2;
+  margin: 40px;
+  font-family: 'Itim', cursive;
+  padding: 20px;
+  transition: color 0.3s ease-in-out;
+  padding-bottom: 20px;
+}
+
+.navbar a:hover{
+  color: #a0d2b5;
+  transform: translateY(-3px);
+}
+
+
+.navbar .right-column button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .right-column svg {
+  font-size: 40px;
+}
+
+.navbar #open {
+  padding-left: 0px;
+}
+
+.navbar #open img {
+  display: none;
+}
+
+.navbar #close img {
+  display: inherit;
+}
+
+.navbar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+
+.navbar #open a {
+  width: 70px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar .right-column a {
+      width: 70px;
+  }
+
+  .navbar .left-column {
+      padding-left: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .right-column a {
+      display: none;
+  }
+
+  .navbar .right-column {
+      justify-content: flex-end;
+      padding-right: 50px;
+  }
+
+  .navbar .right-column button {
+      display: inherit;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar .right-column button {
+      display: none;
+  }
+
+  .hiddenLinks {
+      display: none;
+  }
+}
